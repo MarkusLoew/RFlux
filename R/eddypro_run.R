@@ -5,7 +5,7 @@ workdir <- getwd()
 setwd(path_eddypro_projfiles)
 setwd("..")
 eddypro.path <- getwd()
-dir.create(paste0(getwd(),"/tmp"))
+dir.create(paste0(getwd(),"/bin"))
 
 if (Sys.info()[['sysname']]=="Darwin") command_OpSys <- " -s mac "
 if (Sys.info()[['sysname']]=="Windows") command_OpSys <- " -s win "
